@@ -529,6 +529,55 @@ body {
     font-weight: 300;
 }
 
+
+
+/* Botão Ver Mais */
+.load-more-container {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.load-more-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 16px 32px;
+    background-color: transparent;
+    border: 2px solid #ff6b8b;
+    color: #ff6b8b;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.load-more-btn:hover {
+    background-color: #ff6b8b;
+    color: white;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(255, 107, 139, 0.2);
+}
+
+.load-more-btn.hidden {
+    display: none;
+}
+
+.load-more-btn.loading {
+    opacity: 0.7;
+    cursor: wait;
+}
+
+.load-more-btn svg {
+    transition: transform 0.3s;
+}
+
+.load-more-btn:hover svg {
+    transform: translateY(3px);
+}
+
+
+
 /* Tradição Minimalista */
 .tradicao-content {
     text-align: center;
@@ -600,64 +649,89 @@ body {
     line-height: 1.7;
 }
 
-/* Valores Minimalista */
+/* Valores Simplificado */
 .valores-section {
-    background-color: transparent;
-    border-radius: 0;
-    padding: 60px 40px;
-    border: 1px solid rgba(44, 62, 80, 0.1);
+    padding: 40px 20px;
+    text-align: center;
 }
 
 .valores-title {
-    text-align: center;
-    margin-bottom: 40px;
     color: #2c3e50;
     font-size: 1.8rem;
     font-weight: 400;
-}
-
-.tabela-valores {
-    overflow-x: auto;
     margin-bottom: 30px;
 }
 
-table {
-    width: 100%;
-    border-collapse: collapse;
-}
-
-thead {
-    background-color: transparent;
-    border-bottom: 2px solid #ff6b8b;
-}
-
-th, td {
-    padding: 20px 15px;
-    text-align: left;
-    border-bottom: 1px solid rgba(44, 62, 80, 0.1);
-    font-weight: 300;
-}
-
-th {
-    font-weight: 400;
+.incluso-title {
     color: #2c3e50;
+    font-size: 1.5rem;
+    font-weight: 400;
+
 }
 
-tr:hover {
-    background-color: rgba(255, 107, 139, 0.05);
+
+.valores-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 300px;
+    margin: 0 auto 30px;
+}
+
+.valor-card {
+    border: 1px solid rgba(44, 62, 80, 0.1);
+    border-radius: 8px;
+    padding: 25px 20px;
+    background: white;
+    transition: transform 0.3s ease;
+}
+
+.valor-card:hover {
+    transform: translateY(-5px);
+    border-color: #ff6b8b;
+}
+
+.valor-tamanho {
+    font-size: 1.5rem;
+    color: #2c3e50;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.valor-preco {
+    font-size: 2rem;
+    color: #ff6b8b;
+    font-weight: 500;
 }
 
 .frete-info {
-    text-align: center;
     font-weight: 400;
     color: #2c3e50;
-    font-size: 1.1rem;
+    font-size: 1rem;
     opacity: 0.8;
+    padding-top: 20px;
+    border-top: 1px solid rgba(44, 62, 80, 0.1);
+    margin-top: 20px;
 }
 
 .frete-info i {
     margin-right: 10px;
     color: #ff6b8b;
+}
+
+
+/* Responsivo para desktop */
+@media (min-width: 768px) {
+    .valores-cards {
+        flex-direction: row;
+        justify-content: center;
+        max-width: 600px;
+    }
+    
+    .valor-card {
+        flex: 1;
+        max-width: 250px;
+    }
 }
 
 /* Depoimentos Minimalista */

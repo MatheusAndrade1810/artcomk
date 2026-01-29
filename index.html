@@ -174,6 +174,34 @@
         </div>
     </section>
 
+
+    <!-- Designs -->
+    <section id="designs" class="section">
+        <div class="container">
+            <h2 class="section-title">Nossos Designs</h2>
+            <p class="section-subtitle">Escolha um dos nossos modelos ou personalize completamente conforme sua preferência.</p>
+            
+            <div class="designs-grid" id="designsGrid">
+                <!-- Os 6 primeiros designs serão carregados aqui -->
+            </div>
+            
+            <div class="load-more-container">
+                <button id="loadMoreBtn" class="load-more-btn">
+                    <span>Ver Mais Designs</span>
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M19 9l-7 7-7-7"/>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Adicione esta linha ANTES do </body> -->
+    <script src="scripts.js"></script>
+
+
+
+
     <!-- Tradição -->
     <section id="tradicao" class="section bg-light">
         <div class="container">
@@ -218,46 +246,37 @@
                 </div>
             </div>
             
-            <!-- Valores -->
-            <div class="valores-section">
-                <h3 class="valores-title">Valores</h3>
-                <div class="tabela-valores">
-                    <table>
-                        <thead>
-                            <tr>
-                                <th>Tamanho</th>
-                                <th>Descrição</th>
-                                <th>Preço</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>Pequeno</td>
-                                <td>Até 10cm, design simples</td>
-                                <td>R$ 120,00</td>
-                            </tr>
-                            <tr>
-                                <td>Médio</td>
-                                <td>Até 15cm, com personalização</td>
-                                <td>R$ 180,00</td>
-                            </tr>
-                            <tr>
-                                <td>Grande</td>
-                                <td>Até 20cm, design completo</td>
-                                <td>R$ 250,00</td>
-                            </tr>
-                            <tr>
-                                <td>Luxo</td>
-                                <td>Acima de 20cm, totalmente personalizado</td>
-                                <td>R$ 350,00</td>
-                            </tr>
-                        </tbody>
-                    </table>
+        <!-- Valores Simplificado -->
+        <div class="valores-section">
+            <h3 class="valores-title">Valores</h3>
+            
+            <div class="valores-cards">
+                <div class="valor-card">
+                    <div class="valor-tamanho">16 cm</div>
+                    <div class="valor-preco">R$ 250,00</div>
                 </div>
-                <p class="frete-info"><i class="fas fa-shipping-fast"></i> Frete incluso para todo o Brasil</p>
+                
+                <div class="valor-card">
+                    <div class="valor-tamanho">20 cm</div>
+                    <div class="valor-preco">R$ 350,00</div>
+                </div>
+            </div>
+            
+            <h4 class="incluso-title">Incluso</h4>
+            <p class="frete-info">
+                <i class="fas fa-palette"></i> Bastidor bordado do tamanho escolhido
+            </p>
+            <p class="frete-info">
+                <i class="fas fa-pencil-alt"></i> Personalização exclusiva
+            </p>
+            <p class="frete-info">
+                <i class="far fa-image"></i> Cavalete de apoio
+            </p>
+            <p class="frete-info">
+                <i class="fas fa-shipping-fast"></i> Frete incluso para todo o Brasil
+            </p>
             </div>
         </div>
-    </section>
 
     <!-- Quem Já Casou -->
     <section id="clientes" class="section bg-light">
