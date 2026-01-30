@@ -408,19 +408,19 @@ body {
     width: 24px;
 }
 
-/* Momentos Especiais Minimalista */
-.momentos-container {
+/* cerimonia Especiais Minimalista */
+.cerimonia-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
     gap: 40px;
 }
 
-.momento-categoria {
+.cerimonia-categoria {
     background-color: transparent;
     padding: 0;
 }
 
-.momento-categoria h3 {
+.cerimonia-categoria h3 {
     color: #2c3e50;
     margin-bottom: 30px;
     font-size: 1.3rem;
@@ -431,38 +431,38 @@ body {
     border-bottom: 1px solid rgba(44, 62, 80, 0.1);
 }
 
-.momento-categoria h3 i {
+.cerimonia-categoria h3 i {
     margin-right: 12px;
     color: #ff6b8b;
 }
 
-.momento {
+.cerimonia {
     display: flex;
     margin-bottom: 25px;
     padding-bottom: 25px;
     border-bottom: 1px solid rgba(44, 62, 80, 0.05);
 }
 
-.momento:last-child {
+.cerimonia:last-child {
     border-bottom: none;
     margin-bottom: 0;
     padding-bottom: 0;
 }
 
-.momento-emoji {
+.cerimonia-emoji {
     font-size: 1.8rem;
     margin-right: 20px;
     flex-shrink: 0;
     width: 40px;
 }
 
-.momento p {
+.cerimonia p {
     opacity: 0.8;
     font-weight: 300;
     line-height: 1.7;
 }
 
-.momento strong {
+.cerimonia strong {
     font-weight: 500;
     color: #2c3e50;
 }
@@ -500,7 +500,7 @@ body {
 }
 
 .design-img {
-    height: 300px;
+    height: 600px;
     overflow: hidden;
 }
 

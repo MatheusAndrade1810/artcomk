@@ -87,33 +87,33 @@ document.addEventListener('DOMContentLoaded', function() {
     const allDesigns = [
         // Primeiros 6 designs (aparecem inicialmente)
         { 
-            name: "Design Clássico 1", 
-            description: "Bordados tradicionais com flores e nomes dos noivos",
-            image: "imagens/design-1.jpg"
+            name: "Porta-alianças - Iniciais", 
+            description: "Bordado com as iniciais no centro, com elementos da natureza ao redor",
+            image: "imagens/3.jpg"
         },
         { 
-            name: "Design Moderno 1", 
-            description: "Linhas limpas e elementos contemporâneos",
-            image: "imagens/design-2.jpg"
+            name: "Porta-alianças - Nomes", 
+            description: "Bordado com os nomes dos noivos no centro, com elementos da natureza ao redor",
+            image: "imagens/16.jpg"
         },
         { 
-            name: "Design Personalizado 1", 
-            description: "Criado exclusivamente para o seu casamento",
-            image: "imagens/design-3.jpg"
+            name: "Porta-alianças - Natureza", 
+            description: "Bordado com um árvore no centro e os nomes dos noivos",
+            image: "imagens/20.jpg"
         },
         { 
-            name: "Design Rústico 1", 
-            description: "Inspirado na natureza com elementos orgânicos",
+            name: "Porta-alianças - Imagem Sagrada 1", 
+            description: "Bordado com imagem sagrada no centro e iniciais dos noivos abaixo da imagem, com elementos da natureza ao redor",
             image: "imagens/design-4.jpg"
         },
         { 
-            name: "Design Minimalista 1", 
-            description: "Simples e elegante com foco na tipografia",
+            name: "Porta-alianças - Imagem Sagrada 2", 
+            description: "Bordado com imagem sagrada no centro e nome dos noivos abaixo da imagem, com elementos da natureza ao redor",
             image: "imagens/design-5.jpg"
         },
         { 
-            name: "Design Luxuoso 1", 
-            description: "Detalhes em dourado e pedrarias especiais",
+            name: "Porta-alianças - Imagem Sagrada 3", 
+            description: "Bordado com imagem sagrada e nome dos noivos no centro, com elementos da natureza ao redor, com elementos da natureza ao redor",
             image: "imagens/design-6.jpg"
         },
         // Adicione mais 24 designs abaixo (você pode copiar e modificar)
