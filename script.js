@@ -70,13 +70,6 @@ document.querySelectorAll('.step, .design-card, .depoimento, .momento-categoria'
     observer.observe(el);
 });
 
-
-
-
-
-
-
-
 // scripts.js - Sistema de carregamento progressivo de designs
 
 document.addEventListener('DOMContentLoaded', function() {
